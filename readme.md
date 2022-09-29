@@ -18,20 +18,21 @@ Your function will be passed par and strokes arguments. Return the correct strin
 
 
 
-Strokes	Return
-1	"Hole-in-one!" 
+ Strokes/ Return
 
-<= par - 2	"Eagle"
+1/	"Hole-in-one!" 
 
-par - 1	"Birdie"
+<= par - 2	/"Eagle"
 
-par	"Par"
+par - 1/	"Birdie"
 
-par + 1	"Bogey"
+par	/"Par"
 
-par + 2	"Double Bogey"
+par + 1	/"Bogey"
 
- >= par + 3	"Go Home!"
+par + 2	/"Double Bogey"
+
+ >= par + 3/	"Go Home!"
 par and strokes will always be numeric and positive. We have added an array of all the names for your convenience.
 
 Tests
